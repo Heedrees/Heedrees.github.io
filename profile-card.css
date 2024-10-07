@@ -1,0 +1,94 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: Kumbh Sans;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("file:///C:/Users/HP%20ELITEBOOK%20840%20G5/Desktop/WEB%20DEV/profile-card-component-main/profile-card-component-main/images/bg-pattern-top.svg");
+    background-image: url("file:///C:/Users/HP%20ELITEBOOK%20840%20G5/Desktop/WEB%20DEV/profile-card-component-main/profile-card-component-main/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.card-container {
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    border-radius: 10px;
+}
+
+.top-image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.profile-image {
+    position: relative;
+    z-index: 1;
+    bottom: 110%;
+    margin-bottom: -18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid white;
+    border-radius: 50%; 
+}
+
+.third {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.profile-name {
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.age {
+    font-weight: 400;
+}
+
+.fourth {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(128, 128, 128, 0.18);
+        
+}
+
+.figure {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%)
+}
+
+.country {
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%)
+}
+
+
+
+
+
